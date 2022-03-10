@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: lightblue;
+}
+
+
+.btn{
+    padding: 1rem 2rem;
+    margin: 1rem;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(112, 205, 236);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px #999;
+  }
+  
+  .btn:hover {background-color: rgb(59, 198, 245)}
+  
+  .btn:active {
+    background-color: rgb(59, 198, 245);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
